@@ -19,7 +19,7 @@ app.post('/', (req, res) => {
 });
 
 app.listen(8080, (resp) => {
-    console.log("server startet on port 4000")
+    console.log("Server startet on port 4000")
 })
 
 module.exports = app;
