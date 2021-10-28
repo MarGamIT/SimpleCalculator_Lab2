@@ -1,6 +1,9 @@
 const express = require('express');
 var bodyParser = require('body-parser');
 const app = express();
+const appInsights = require("applicationinsights");
+appInsights.setup("<instrumentation_key>");
+appInsights.start();
 
 
 
