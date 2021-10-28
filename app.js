@@ -18,7 +18,7 @@ app.post('/', (req, res) => {
     res.send(sum.toString());
 });
 
-app.listen(4000, (resp) => {
+app.listen(8080, (resp) => {
     console.log("server startet on port 4000")
 })
 
